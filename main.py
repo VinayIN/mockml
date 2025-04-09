@@ -262,6 +262,7 @@ def create_gradio_interface(rule_data, synthetic_data) -> gr.Blocks:
 
                 with gr.Accordion("Training Data", open=False):
                     data_with_predictions_2 = synthetic_data.copy()
+                    data_with_predictions_2.drop(columns=["price"], inplace=True)
                     data_with_predictions_2["predicted_price"] = data_with_predictions_2.apply(
                         lambda row: predict_model(row["sqmt"], row["bedrooms"], row["distance"], model_type="ml")[0], axis=1
                     )
