@@ -1,3 +1,13 @@
+---
+title: Mockml - House Price Predictor
+emoji: 🏠
+colorFrom: indigo
+colorTo: yellow
+sdk: gradio
+sdk_version: "5.23.3"
+app_file: main.py
+pinned: false
+---
 # 🏠 House Price Predictor
 
 ### This is **find the model which uses ML challenge!**
@@ -9,7 +19,7 @@ Both models predict house prices based on three input features:
 - **Number of bedrooms** in the house.
 - **Distance** from the city center (in kilometers).
 
-Alsong with **Price (in €)**, the app also provides a **confidence score** for each prediction, indicating how reliable the prediction is.
+Along with **Price (in €)**, the app also provides a **confidence score** for each prediction, indicating how reliable the prediction is.
 
 ---
 
