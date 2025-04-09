@@ -47,7 +47,7 @@ The final price is clipped between **€400** and **€3000**.
 
 You can access the app demo on **Hugging Face Spaces**:
 
-[👉 Try the House Price Predictor](https://huggingface.co/spaces/your-username/house-price-predictor)
+[👉 Try the House Price Predictor](https://huggingface.co/spaces/vinayin/mockml)
 
 
 ## 📚 Dependencies
