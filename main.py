@@ -193,22 +193,22 @@ def create_gradio_interface(rule_data, synthetic_data) -> gr.Blocks:
                     sqft1 = gr.Number(
                         label="Square meters",
                         value=DEFAULT_INPUTS["sqmt"],
-                        minimum=SQMT_MIN,
-                        maximum=SQMT_MAX,
+                        minimum=0,
+                        maximum=5000,
                         step=5
                     )
                     bedrooms1 = gr.Slider(
                         label="Bedrooms",
                         value=DEFAULT_INPUTS["bedrooms"],
-                        minimum=BEDROOMS_MIN,
-                        maximum=BEDROOMS_MAX,
+                        minimum=0,
+                        maximum=20,
                         step=1
                     )
                     distance1 = gr.Slider(
                         label="Distance from city center (km)",
                         value=DEFAULT_INPUTS["distance"],
                         minimum=DISTANCE_MIN,
-                        maximum=DISTANCE_MAX,
+                        maximum=100,
                         step=0.5
                     )
 
@@ -238,22 +238,22 @@ def create_gradio_interface(rule_data, synthetic_data) -> gr.Blocks:
                     sqft2 = gr.Number(
                         label="Square meters",
                         value=DEFAULT_INPUTS["sqmt"],
-                        minimum=SQMT_MIN,
-                        maximum=SQMT_MAX,
+                        minimum=0,
+                        maximum=5000,
                         step=5
                     )
                     bedrooms2 = gr.Slider(
                         label="Bedrooms",
                         value=DEFAULT_INPUTS["bedrooms"],
-                        minimum=BEDROOMS_MIN,
-                        maximum=BEDROOMS_MAX,
+                        minimum=0,
+                        maximum=20,
                         step=1
                     )
                     distance2 = gr.Slider(
                         label="Distance from city center (km)",
                         value=DEFAULT_INPUTS["distance"],
                         minimum=DISTANCE_MIN,
-                        maximum=DISTANCE_MAX,
+                        maximum=100,
                         step=0.5
                     )
 
